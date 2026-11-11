@@ -1,1 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Charlos, Industrial Engineering professional focused on supply chain, production planning, and industrial optimization.">
+  <meta name="theme-color" content="#101b2d">
+  <title>Charlos | Industrial Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">CHARLOS<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#skills" data-i18n="navSkills">Skills</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#education" data-i18n="navEducation">Education</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="language-toggle" id="languageToggle" aria-label="Switch language">ID</button>
+        <a class="button button-small button-outline" href="#contact" data-i18n="navHire">Let's talk</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span><span data-i18n="heroEyebrow">OPEN TO OPPORTUNITIES</span></p>
+          <p class="hero-kicker" data-i18n="heroKicker">Hello, I'm Maychael John</p>
+          <h1>Charlos<span class="accent">.</span></h1>
+          <h2 data-i18n="heroRole">Fresh Graduate Industrial Engineering Student | Supply Chain & Operations</h2>
+          <p class="hero-description" data-i18n="heroDescription">
+            I turn operational challenges into structured, data-informed solutions through industrial engineering, analytical thinking, and continuous improvement.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects" data-i18n="heroProjects">Explore my work <span>↗</span></a>
+            <a class="button button-outline" href="assets/cv.pdf" download data-i18n="heroCV">Download CV ↓</a>
+          </div>
+          <div class="hero-meta">
+            <span>📍 Bandar Lampung, Indonesia</span>
+            <span data-i18n="heroFocus">Supply Chain · Planning · Optimization</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="profile-placeholder">
+            <span class="profile-initials">C.</span>
+            <span class="profile-caption" data-i18n="photoPlaceholder">YOUR PHOTO HERE</span>
+          </div>
+          <div class="floating-card card-top"><span class="mini-icon">⌁</span><span>Analytical<br><strong>Problem Solver</strong></span></div>
+          <div class="floating-card card-bottom"><span class="mini-icon">↗</span><span>Industrial<br><strong>Engineering</strong></span></div>
+          <div class="visual-label">PORTFOLIO / 2026</div>
+        </div>
+      </div>
+      <div class="container scroll-cue"><span></span><p data-i18n="scroll">SCROLL TO EXPLORE</p></div>
+    </section>
+
+    <section class="section section-light" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="section-index">01 / <span data-i18n="aboutIndex">ABOUT</span></p>
+          <h2 class="section-title" data-i18n="aboutTitle">Curious by nature.<br><span class="muted">Structured by design.</span></h2>
+        </div>
+        <div class="about-content">
+          <p data-i18n="aboutText">I am an Industrial Engineering student at Institut Teknologi Sumatera (ITERA), interested in supply chain management, production planning, and industrial system optimization. I enjoy understanding how processes work, identifying improvement opportunities, and translating data into practical recommendations.</p>
+          <p data-i18n="aboutText2">My academic and practical experiences have introduced me to material planning, inventory control, manufacturing processes, and analytical tools. I value clear communication, structured problem-solving, and continuous learning.</p>
+          <div class="about-facts">
+            <div><strong>01</strong><span data-i18n="factOne">Analytical mindset</span></div>
+            <div><strong>02</strong><span data-i18n="factTwo">Process-oriented</span></div>
+            <div><strong>03</strong><span data-i18n="factThree">Continuous learner</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section-index">02 / <span data-i18n="skillsIndex">CAPABILITIES</span></p>
+        <div class="section-heading-row">
+          <h2 class="section-title" data-i18n="skillsTitle">Tools & expertise</h2>
+          <p class="section-intro" data-i18n="skillsIntro">A combination of engineering knowledge, analytical tools, and collaborative skills.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-number">01</div><div class="skill-icon">◫</div>
+            <h3 data-i18n="skillOneTitle">Supply Chain & Planning</h3>
+            <p>Inventory Control · Material Planning · Procurement · Production Planning</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-number">02</div><div class="skill-icon">⌘</div>
+            <h3 data-i18n="skillTwoTitle">Data & Analysis</h3>
+            <p>Microsoft Excel · MATLAB · Data Cleaning · Quantitative Analysis</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-number">03</div><div class="skill-icon">▦</div>
+            <h3 data-i18n="skillThreeTitle">Simulation & Engineering</h3>
+            <p>FlexSim · SolidWorks · Process Analysis · System Modeling</p>
+          </article>
+          <article class="skill-card">
+            <div class="skill-number">04</div><div class="skill-icon">◎</div>
+            <h3 data-i18n="skillFourTitle">Methods & Collaboration</h3>
+            <p>Fuzzy Logic · Optimization · Problem Solving · Team Coordination</p>
+          </article>
+        </div>
+        <p class="small-note" data-i18n="skillsNote">Note: Keep only the tools and methods you can confidently explain and demonstrate in an interview.</p>
+      </div>
+    </section>
+
+    <section class="section section-light" id="projects">
+      <div class="container">
+        <p class="section-index">03 / <span data-i18n="projectsIndex">SELECTED WORK</span></p>
+        <div class="section-heading-row">
+          <h2 class="section-title" data-i18n="projectsTitle">Projects & experience</h2>
+          <p class="section-intro" data-i18n="projectsIntro">A selection of academic and practical experiences. Open each project to add your detailed case study.</p>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-visual project-visual-blue"><span>01</span><div class="abstract-chart"><i></i><i></i><i></i><i></i><i></i></div><small>INVENTORY / MODEL</small></div>
+            <div class="project-info">
+              <p class="project-type" data-i18n="projectOneType">FINAL PROJECT · INVENTORY CONTROL</p>
+              <h3 data-i18n="projectOneTitle">Shelf-Life-Constrained Material Inventory Model</h3>
+              <p data-i18n="projectOneDesc">Development of an inventory control approach for materials with limited shelf life and long lead time, using aircraft sealant material as the case study.</p>
+              <div class="tag-list"><span>Inventory Control</span><span>EOQ</span><span>Shelf-Life</span><span>Lead Time</span></div>
+              <a class="text-link" href="#contact" data-i18n="projectDetails">Discuss this project ↗</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual project-visual-sand"><span>02</span><div class="factory-lines"><i></i><i></i><i></i></div><small>MANUFACTURING / PPC</small></div>
+            <div class="project-info">
+              <p class="project-type" data-i18n="projectTwoType">INTERNSHIP · PT DIRGANTARA INDONESIA</p>
+              <h3 data-i18n="projectTwoTitle">Material Requirement Planning for Aircraft Sealant</h3>
+              <p data-i18n="projectTwoDesc">A practical study of short shelf-life sealant requirements for the NC212i aircraft production program, considering lot sizing and lead-time adjustment.</p>
+              <div class="tag-list"><span>Material Planning</span><span>Lot-for-Lot</span><span>SAP</span><span>Manufacturing</span></div>
+              <a class="text-link" href="#contact" data-i18n="projectDetails">Discuss this project ↗</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual project-visual-green"><span>03</span><div class="dashboard-shape"><b></b><b></b><b></b><b></b></div><small>INFORMATION SYSTEM</small></div>
+            <div class="project-info">
+              <p class="project-type" data-i18n="projectThreeType">ACADEMIC PROJECT · SYSTEM DESIGN</p>
+              <h3 data-i18n="projectThreeTitle">Student Organization Monitoring Dashboard</h3>
+              <p data-i18n="projectThreeDesc">Design of a web-based information system concept to improve document monitoring and transparency for student organization work plans and accountability reports.</p>
+              <div class="tag-list"><span>System Analysis</span><span>Dashboard</span><span>Process Design</span></div>
+              <a class="text-link" href="#contact" data-i18n="projectDetails">Discuss this project ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container two-column">
+        <div>
+          <p class="section-index">04 / <span data-i18n="educationIndex">BACKGROUND</span></p>
+          <h2 class="section-title" data-i18n="educationTitle">Education &<br><span class="muted">involvement.</span></h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-dot"></span><p class="timeline-date">2019 — 2026</p>
+            <h3 data-i18n="educationDegree">Industrial Engineering</h3>
+            <p>Institut Teknologi Sumatera (ITERA)</p>
+            <p class="timeline-detail" data-i18n="educationDetail">Focus areas: supply chain management, production planning, industrial systems, and optimization.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-dot"></span><p class="timeline-date" data-i18n="organizationPeriod">ORGANIZATIONAL EXPERIENCE</p>
+            <h3 data-i18n="organizationTitle">Organization Supervisory Board</h3>
+            <p data-i18n="organizationOrg">Industrial Engineering Student Association</p>
+            <p class="timeline-detail" data-i18n="organizationDetail">Monitored work programs, coordinated with executive teams, and contributed to organizational guidance and policy discussions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="container contact-inner">
+        <p class="section-index">05 / CONTACT</p>
+        <h2 data-i18n="contactTitle">Let's create<br>something <span class="accent">meaningful.</span></h2>
+        <p data-i18n="contactText">I'm open to discussing opportunities in supply chain, production planning, and industrial engineering.</p>
+        <a class="button button-primary" href="mailto:your.charlosmanalu23@gmail.com" data-i18n="contactButton">Get in touch ↗</a>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="mailto:your.charlosmanalu23@gmail.com">Email ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand" href="#home">CHARLOS<span>.</span></a><p>© <span id="year"></span> Charlos. <span data-i18n="footerText">Built with purpose.</span></p><a href="#home" data-i18n="backTop">Back to top ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
 
